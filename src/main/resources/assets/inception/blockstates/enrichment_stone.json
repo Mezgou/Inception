@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "inception:block/enrichment_stone" }
+  }
+}

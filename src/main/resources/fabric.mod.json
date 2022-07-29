@@ -4,13 +4,13 @@
   "version": "${version}",
 
   "name": "Inception",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Mod for Minecraft",
   "authors": [
     "Mezgou"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Mezgou/Inception"
   },
 
   "license": "MIT",
