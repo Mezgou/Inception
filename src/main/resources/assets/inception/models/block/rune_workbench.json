@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "inception:block/rune_workbench_front",
+    "north": "inception:block/rune_workbench_front",
+    "south": "inception:block/rune_workbench_front",
+    "east": "inception:block/rune_workbench_front",
+    "west": "inception:block/rune_workbench_front",
+    "up": "inception:block/rune_workbench_top",
+    "down": "inception:block/rune_workbench_lower"
+  }
+}

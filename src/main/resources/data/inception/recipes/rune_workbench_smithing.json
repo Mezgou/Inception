@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:crafting_table"
+  },
+  "addition": {
+    "item": "inception:cobalt_ingot"
+  },
+  "result": {
+    "item": "inception:rune_workbench"
+  }
+}

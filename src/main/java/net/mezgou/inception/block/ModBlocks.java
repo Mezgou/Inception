@@ -16,7 +16,7 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 
     public static final Block ENRICHMENT_STONE = registerBlock("enrichment_stone",
-            new Block(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.STONE)
+            new Block(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.DEEPSLATE)
                     .strength(6f).requiresTool().luminance(7)), ModItemGroup.ENRICHMENT);
 
     public static final Block BLOCK_OF_COBALT = registerBlock("block_of_cobalt",
@@ -24,8 +24,16 @@ public class ModBlocks {
                     .strength(8f).requiresTool()), ModItemGroup.ENRICHMENT);
 
     public static final Block COBALT_ORE = registerBlock("cobalt_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.STONE)
+            new Block(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHER_ORE)
                     .strength(8f).requiresTool()), ModItemGroup.ENRICHMENT);
+
+    public static final Block RUNE_WORKBENCH = registerBlock("rune_workbench",
+            new Block(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD)
+                    .strength(4f).requiresTool()), ModItemGroup.ENRICHMENT);
+
+    public static final Block EMPTY_RUNE = registerBlock("empty_rune",
+            new Block(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.DEEPSLATE)
+                    .strength(6f).requiresTool()), ModItemGroup.ENRICHMENT);
 
     private static final Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

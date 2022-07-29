@@ -3,6 +3,7 @@
   "values": [
     "inception:enrichment_stone",
     "inception:block_of_cobalt",
-    "inception:cobalt_ore"
+    "inception:cobalt_ore",
+    "inception:empty_rune"
   ]
 }
