@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "inception:cobalt_ingot"
+    }
+  },
+  "result": {
+    "item": "inception:block_of_cobalt",
+    "count": 1
+  }
+}

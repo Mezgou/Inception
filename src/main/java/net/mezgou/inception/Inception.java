@@ -2,6 +2,7 @@ package net.mezgou.inception;
 
 import net.fabricmc.api.ModInitializer;
 import net.mezgou.inception.block.ModBlocks;
+import net.mezgou.inception.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,6 +13,7 @@ public class Inception implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModItems.registerModItems();
 		ModBlocks.registerModBlock();
 
 	}

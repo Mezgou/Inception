@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "inception:block/block_of_cobalt" }
+  }
+}

@@ -1,3 +1,10 @@
 {
-  "block.inception.enrichment_stone": "Enrichment Stone"
+  "block.inception.enrichment_stone": "Enrichment Stone",
+  "block.inception.block_of_cobalt": "Block of Cobalt",
+  "block.inception.cobalt_ore": "Cobalt Ore",
+
+  "itemGroup.inception.enrichment": "Inception",
+
+  "item.inception.raw_cobalt": "Raw Cobalt",
+  "item.inception.cobalt_ingot": "Cobalt Ingot"
 }
