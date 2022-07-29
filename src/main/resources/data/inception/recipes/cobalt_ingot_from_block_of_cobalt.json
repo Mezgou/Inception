@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "iron_ingot",
+  "ingredients": [
+    {
+      "item": "inception:block_of_cobalt"
+    }
+  ],
+  "result": {
+    "item": "inception:cobalt_ingot",
+    "count": 9
+  }
+}

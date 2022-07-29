@@ -24,7 +24,7 @@ public class ModBlocks {
                     .strength(8f).requiresTool()), ModItemGroup.ENRICHMENT);
 
     public static final Block COBALT_ORE = registerBlock("cobalt_ore",
-            new Block(FabricBlockSettings.of(Material.METAL).sounds(BlockSoundGroup.METAL)
+            new Block(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.STONE)
                     .strength(8f).requiresTool()), ModItemGroup.ENRICHMENT);
 
     private static final Block registerBlock(String name, Block block, ItemGroup group) {
