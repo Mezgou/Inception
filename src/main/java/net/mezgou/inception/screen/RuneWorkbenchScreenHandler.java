@@ -23,16 +23,16 @@ public class RuneWorkbenchScreenHandler extends ScreenHandler {
         inventory.onOpen(playerInventory.player);
 
         //
-        this.addSlot(new Slot(inventory, 0, 15, 9));
-        this.addSlot(new Slot(inventory, 1, 46, 9));
-        this.addSlot(new Slot(inventory, 2, 77, 9));
-        this.addSlot(new Slot(inventory, 3, 15, 36));
-        this.addSlot(new Slot(inventory, 4, 77, 36));
-        this.addSlot(new Slot(inventory, 5, 15, 62));
-        this.addSlot(new Slot(inventory, 6, 46, 62));
-        this.addSlot(new Slot(inventory, 7, 77, 62));
-        this.addSlot(new Slot(inventory, 8, 46, 36));
-        this.addSlot(new ModResultSlot(inventory, 8, 46, 36));
+        this.addSlot(new Slot(inventory, 0, 14, 17));
+        this.addSlot(new Slot(inventory, 1, 45, 17));
+        this.addSlot(new Slot(inventory, 2, 76, 17));
+        this.addSlot(new Slot(inventory, 3, 14, 44));
+        this.addSlot(new Slot(inventory, 4, 76, 44));
+        this.addSlot(new Slot(inventory, 5, 14, 70));
+        this.addSlot(new Slot(inventory, 6, 45, 70));
+        this.addSlot(new Slot(inventory, 7, 76, 70));
+        this.addSlot(new Slot(inventory, 8, 45, 42));
+        this.addSlot(new ModResultSlot(inventory, 8, 45, 43));
 
         addPlayerInventory(playerInventory);
         addPlayerHotbar(playerInventory);
@@ -78,7 +78,7 @@ public class RuneWorkbenchScreenHandler extends ScreenHandler {
 
     private void addPlayerHotbar(PlayerInventory playerInventory) {
         for (int i = 0; i < 9; ++i) {
-            this.addSlot(new Slot(playerInventory, i, 8 + i * 18, 144));
+            this.addSlot(new Slot(playerInventory, i, 8 + i * 18, 164));
         }
     }
 }

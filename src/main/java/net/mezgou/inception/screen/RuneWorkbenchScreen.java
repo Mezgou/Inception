@@ -10,6 +10,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class RuneWorkbenchScreen extends HandledScreen<RuneWorkbenchScreenHandler> {
+    private int backgroundHeight = 187;
     private static final Identifier TEXTURE =
             new Identifier(Inception.MOD_ID, "textures/gui/rune_workbench_gui.png");
 
@@ -20,7 +21,10 @@ public class RuneWorkbenchScreen extends HandledScreen<RuneWorkbenchScreenHandle
     @Override
     protected void init() {
         super.init();
-        titleX = (backgroundWidth - textRenderer.getWidth(title)) / 2;
+        this.titleX = (backgroundWidth - textRenderer.getWidth(title)) / 2;
+        this.playerInventoryTitleY = 95;
+        this.x = (this.width - this.backgroundWidth) / 2;
+        this.y = (this.height - this.backgroundHeight) / 2;
     }
 
     @Override
