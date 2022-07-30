@@ -3,6 +3,7 @@ package net.mezgou.inception.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.mezgou.inception.Inception;
+import net.mezgou.inception.block.custom.RuneWorkbenchBlock;
 import net.mezgou.inception.item.ModItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
@@ -28,12 +29,16 @@ public class ModBlocks {
                     .strength(8f).requiresTool()), ModItemGroup.ENRICHMENT);
 
     public static final Block RUNE_WORKBENCH = registerBlock("rune_workbench",
-            new Block(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD)
+            new RuneWorkbenchBlock(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD)
                     .strength(4f).requiresTool()), ModItemGroup.ENRICHMENT);
 
     public static final Block EMPTY_RUNE = registerBlock("empty_rune",
             new Block(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.DEEPSLATE)
                     .strength(6f).requiresTool()), ModItemGroup.ENRICHMENT);
+
+    public static final Block RUNE_FURNACE = registerBlock("rune_furnace",
+            new Block(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.ANVIL)
+                    .strength(4f).requiresTool()), ModItemGroup.ENRICHMENT);
 
     private static final Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
